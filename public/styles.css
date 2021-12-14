@@ -98,7 +98,23 @@ img {
   border: 5px solid rgb(255, 255, 255);
   max-width: 90%;
 }
-p {
+/*
+SPECIAL EFFECT...
+div img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+div img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+}
+SPECIAL EFFECT - IT WORKS...BUT DIDNT WANT TO USE IT AS I DIDNT EVEN THINK IT WOULD BE WORTH ANY POINTS. I LOOKED UP HOW TO DO THIS. WE DISCUSSED ON ZOOM THAT I DONT NEED TO PUT IT IN IF I DONT WANT TO, BUT IT WORKS! */
+*/ p {
   padding: 0px 12% 0px 12%;
 }
 
