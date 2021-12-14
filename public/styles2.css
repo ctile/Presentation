@@ -1,0 +1,10 @@
+.section p,
+.landing ul,
+aside p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+nav {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 125%;
+}
